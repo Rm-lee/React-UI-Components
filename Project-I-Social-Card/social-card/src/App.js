@@ -3,13 +3,14 @@ import HeaderContainer from './components/HeaderComponents/HeaderContainer'
 import HeaderContent from './components/HeaderComponents/HeaderContent'
 
 import './App.css';
+import CardContainer from './components/CardComponents/CardContainer';
 
 const App = () => {
   return (
-
-  <HeaderContainer />
-
- 
+  <div>
+      <HeaderContainer />
+  <CardContainer />
+  </div>
   );
 };
 

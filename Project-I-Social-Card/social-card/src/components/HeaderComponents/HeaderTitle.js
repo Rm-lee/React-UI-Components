@@ -5,6 +5,6 @@ import HeaderContainer from './HeaderContainer';
 
 
 function HeaderTitle(){
-    return <div className="title-container"><h2>Lambda School</h2> <p className="post-info">@LambdaSchool * 26 jan</p></div>
+    return <p className="header-title"><strong>Lambda School</strong> @LambdaSchool &middot; 26 jan</p>
 }
 export default HeaderTitle;

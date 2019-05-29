@@ -1,17 +1,25 @@
 /* All styles for your header Components live here */
-.header-container{
-    display:flex;
-    flex-wrap:wrap;
-}
-.image-thumbnail{
+.header-container {
+    display    : flex;
+    align-items: flex-start;
 
 }
-.title-container{
-  
-    display:flex;
-    align-items: center;
+
+.image-thumbnail {
+
+    margin: 20px 0 0 2%;
+    width : 8%;
+
 }
-.post-info{
-    padding-left:20px;
-    font-style: italic;
+
+.content-wrapper {
+    padding: 5px 2%;
+    width  : 80%;
+}
+
+.header-title {}
+
+.post-info {
+    padding-left: 20px;
+    font-style  : italic;
 }

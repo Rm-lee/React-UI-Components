@@ -1,1 +1,13 @@
 /* All styles for your Card Components live here */
+.card-container {
+ display       : flex;
+ flex-direction: column;
+}
+
+.card-banner {
+ border-top-left-radius : 5px;
+ border-top-right-radius: 5px;
+ margin-left            : 12%;
+ width                  : 80%;
+
+}
