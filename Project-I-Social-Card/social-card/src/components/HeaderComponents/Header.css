@@ -1,1 +1,17 @@
 /* All styles for your header Components live here */
+.header-container{
+    display:flex;
+    flex-wrap:wrap;
+}
+.image-thumbnail{
+
+}
+.title-container{
+  
+    display:flex;
+    align-items: center;
+}
+.post-info{
+    padding-left:20px;
+    font-style: italic;
+}
