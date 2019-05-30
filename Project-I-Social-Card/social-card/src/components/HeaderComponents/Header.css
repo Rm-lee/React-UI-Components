@@ -23,3 +23,7 @@
     display:inline;
     color:grey;
 }
+.header-title{
+ display:flex;   
+ align-items: center;
+}
