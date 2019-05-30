@@ -1,0 +1,23 @@
+.fa-comment{
+ transform: scaleX(-1);
+}
+.footer{
+ color:grey;
+ display:flex;
+ justify-content: space-between;
+ width:40%;
+margin:20px 12%;
+
+}
+.symbols{
+ display:flex;
+ align-items: center;
+}
+.symbols p{
+ font-size: 1rem;
+ margin:0;
+ padding-left:10px;
+}
+.footer i{
+font-size: 1.4rem;
+}
