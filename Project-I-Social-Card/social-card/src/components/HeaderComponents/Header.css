@@ -19,6 +19,7 @@
     font-style  : italic;
 }
 .user{
+    padding-left:5px;
     display:inline;
     color:grey;
 }
