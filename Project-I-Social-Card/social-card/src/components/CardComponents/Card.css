@@ -1,4 +1,7 @@
 /* All styles for your Card Components live here */
+a {
+ text-decoration: none;
+}
 .card-container {
  display       : flex;
  flex-direction: column;
@@ -13,10 +16,14 @@
  margin-bottom:-4px;
 }
 .card-content{
+ color:black;
  padding:0 10px;
  border:1px solid lightgrey;
  border-top:0;
  border-bottom-right-radius:5px;
  border-bottom-left-radius:5px;
 
+}
+.card-website{
+ color:grey;
 }
