@@ -1,1 +1,29 @@
 /* All styles for your header Components live here */
+.header-container {
+    display    : flex;
+    align-items: flex-start;
+}
+
+.image-thumbnail {
+    margin: 20px 0 0 2%;
+    width : 8%;
+}
+
+.content-wrapper {
+    padding: 5px 2%;
+    width  : 80%;
+}
+
+.post-info {
+    padding-left: 20px;
+    font-style  : italic;
+}
+.user{
+    padding-left:5px;
+    display:inline;
+    color:grey;
+}
+.header-title{
+ display:flex;   
+ align-items: center;
+}
